@@ -154,7 +154,7 @@ def phrase_extraction(text, grammar):
 
 
 ls= list(eng_df["Review Text"])
-print(ls)
+
 
 
 # In[18]:
