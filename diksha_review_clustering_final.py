@@ -326,7 +326,7 @@ vectorized_review_frame
 prob=['poor video quality','download problem','content not available','scanning problem','video availability problem']
 for i in range(len(prob)):
     prob[i]=prob[i].lower()
-print(prob)
+prob
 
 
 # In[30]:
@@ -448,7 +448,7 @@ for i in range(len(vectorized_review_frame)):
 # In[134]:
 
 
-print(l1)
+
 
 
 # In[274]:
@@ -1031,7 +1031,7 @@ k[0][0]
 a=['poor video quality','download problem','content not available','scanning problem','video availability problem']
 for i in range(len(a)):
     a[i]=a[i].lower()
-print(a)
+a
 type(a)
 
 
@@ -1076,7 +1076,7 @@ def unlisting_list_of_list(list_of_list):
 # kywrd_ls= list(set(merged))
 # kywrd_ls
 # kywrd_ls=unlisting_list_of_list(kywrd_df_ls)
-# print(kywrd_ls)
+
 
 
 # In[22]:
@@ -1142,7 +1142,7 @@ list_of_date = eng_df['Review Submit Date and Time'].to_list()
 list_year_month=[]
 for i in list_of_date:
     list_year_month.append(i[:7])
-print(list_year_month)
+list_year_month
     
 
 
@@ -1281,7 +1281,7 @@ def phrase_extraction(text, grammar):
 
 
 list_pos_review= list(pos_df["Review Text"])
-print(list_pos_review)
+list_pos_review
 
 
 # In[504]:
@@ -1430,7 +1430,7 @@ def phrase_extraction(text, grammar):
 
 
 list_neg_review= list(neg_df["Review Text"])
-print(list_neg_review)
+list_neg_review
 
 
 # In[491]:
@@ -1759,7 +1759,7 @@ def phrase_extraction(text, grammar):
 
 
 list_neu_review= list(neu_df["Review Text"])
-print(list_neu_review)
+list_neu_review
 
 
 # In[389]:
@@ -1854,7 +1854,7 @@ mylist=final_df2["Review Text"].tolist()
 
 out = map(lambda x:x.lower(), mylist)
 output = list(out)
-print(output)
+output
  
 
 
